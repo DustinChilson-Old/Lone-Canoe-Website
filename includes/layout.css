@@ -1,0 +1,103 @@
+.intro{clear:both}
+p.intro::first-letter,
+p.intro2::first-letter{
+	font-size:5em;
+	float:left;
+	font-weight:bold;
+	color:#000;
+	padding:3px 5px 2px 0;
+}
+a{
+	text-decoration:underline;
+	color:#000;
+}
+
+a.visted{
+	text-decoration:underline;
+	color:#555;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	font-size: 50%;
+	font-weight: bold;
+	background-color:#F3FAFF;
+	padding-top:10px;
+}
+
+.content {
+	padding-left:10px;
+}	
+
+/* =-=-=-=-=-=-=-[Menu]-=-=-=-=-=-=-=- */
+
+nav {
+	background-color:#734323;
+	height: 28px;
+	position: absolute;
+}
+.Group {
+	display: block;
+	width: 140px;
+	line-height: 27px;
+	padding-left: 27px;
+	background-color: #734323;
+	color: #dfdfdf;
+	text-decoration: none;
+	font-weight:bold;
+}
+.Group:hover {
+	color: #dfdfdf;
+	text-decoration: underline;
+	font-weight:bolder;
+}
+.Option {
+	display: block;
+	width: 130px;
+	line-height: 27px;
+	padding-left: 37px;
+	background-color: #734323;
+	color: #dfdfdf;
+	text-decoration: none;
+	font-weight:bold;
+}
+.Option:hover {
+	color: #dfdfdf;
+	text-decoration: underline;
+	font-weight:bolder;
+}
+.Option2 {
+	display: block;
+	width: 120px;
+	line-height: 27px;
+	padding-left: 47px;
+	background-color: #734323;
+	color: #dfdfdf;
+	text-decoration: none;
+	font-weight:bold;
+}
+.Option2:hover {
+	color: #dfdfdf;
+	text-decoration: underline;
+	font-weight:bolder;
+}
+.show {
+	display:inline;
+}
+.hide {
+	display:none;
+}		
+/* =-=-=-=-=-=-=-[Menu]-=-=-=-=-=-=-=- */
+
+#obama { 
+	position: absolute; 
+	left: 0; 
+	top: 0; 
+	display: block; 
+	height: 83px; 
+	width: 83px; 
+	background: url(http://feb28.com/images/obama-ul.png) no-repeat; 
+	text-indent: -999em; 
+	text-decoration: none; 
+}
